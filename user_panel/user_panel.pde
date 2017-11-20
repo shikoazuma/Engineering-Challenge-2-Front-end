@@ -11,6 +11,7 @@ void draw(){
   adjustment();
   title();
   dataDisplay();
+  log();
 }  
 
 void title(){
@@ -49,4 +50,9 @@ void adjustment(){
   fill(200);
   rect(420,330,100,30,10,10,10,10);
   rect(540,330,100,30,10,10,10,10);
+}
+
+void log(){
+  fill(0);
+  rect(900,130,360,529);
 }
